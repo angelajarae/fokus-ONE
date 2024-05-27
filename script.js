@@ -47,7 +47,7 @@ function showCounter(){
 }
 function changeCard(cardId){
     html.setAttribute("data-contexto",cardId);
-    img.setAttribute("src",`/imagenes/${cardId}.png`);
+    img.setAttribute("src",`./imagenes/${cardId}.png`);
 
     switch(cardId){
         case("enfoque"):
